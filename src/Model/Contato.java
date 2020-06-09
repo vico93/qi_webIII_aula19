@@ -55,6 +55,7 @@ public class Contato {
                 "\nNome: " + nome +
                 "\nTelefone (Celular): " + telCelular +
                 "\nTelefone (Fixo): " + telFixo +
-                "\nEmail: " + email;
+                "\nEmail: " + email +
+                "\n";
     }
 }

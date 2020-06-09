@@ -14,6 +14,11 @@ public class Agenda {
         this.lista = lista;
     }
 
+    // Construtor
+    public Agenda() {
+        this.lista = new ArrayList<>();
+    }
+
     // Métodos
     public void cadastrar(Contato c1) {
         this.lista.add(c1);

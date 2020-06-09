@@ -13,9 +13,6 @@ public class Main {
         // Lista principal
         Agenda a1 = new Agenda();
 
-        System.out.println("Pressione enter pra continuar...");
-        stdin.nextLine();
-
         // Menu
         byte menu;
         do {
@@ -36,6 +33,9 @@ public class Main {
 
                     System.out.print("Digite o código do contato: ");
                     c1.setCodContato(stdin.nextInt());
+
+                    stdin.nextLine();
+
                     System.out.print("Digite o nome: ");
                     c1.setNome(stdin.nextLine());
                     System.out.print("Digite o telefone celular: ");
